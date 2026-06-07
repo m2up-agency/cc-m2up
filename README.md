@@ -1,7 +1,7 @@
 # cc-m2up — Workspace Claude Code
 
 Workspace pré-configurado da **m2up** para gestão de tráfego pago com Claude Code.
-Skills de Google Ads, GA4 e Meta Ads prontas pra usar.
+As skills de Google Ads, GA4 e Meta Ads são distribuídas pelo curso **Clube Efeito IA**.
 
 ---
 
@@ -58,11 +58,8 @@ O Claude vai te fazer algumas perguntas e configurar o sistema pro seu negócio.
 - `/novo-projeto` — cria pasta de projeto novo com CLAUDE.md dedicado
 - `/mapear` — entrevista sobre processos e cria skills personalizadas
 
-**Skills de tráfego (instalar separadamente):**
-- [google-ads-m2up](https://github.com/m2up-agency/google-ads-m2up) — Google Ads via API
-- [ga4-m2up](https://github.com/m2up-agency/ga4-m2up) — Google Analytics 4
-- [meta-ads-m2up](https://github.com/m2up-agency/meta-ads-m2up) — Meta Ads via SDK
-- **ads-m2up** — Diagnóstico, relatório e auditoria *(disponível no curso)*
+**Skills de tráfego:**
+As skills de Google Ads, GA4, Meta Ads e relatório m2up são disponibilizadas nas aulas do curso. Cada skill vem com instruções de instalação na descrição da aula correspondente.
 
 **Pastas geradas pelo `/setup`:**
 - `_contexto/` — contexto do seu negócio e preferências
