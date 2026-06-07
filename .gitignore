@@ -1,0 +1,42 @@
+# Variáveis de ambiente (API keys, tokens — NUNCA commitar)
+.env
+.env.local
+.env.*
+
+# Arquivo gerado pelo /setup com MCPs específicos do usuário
+_configurar-mcps.md
+
+# Contexto pessoal do negócio (gerado pelo /setup de cada usuário)
+_contexto/
+
+# Pastas de clientes (dados de contas e briefings pessoais)
+clientes/*/
+!clientes/_modelo/
+
+# Conteúdo pessoal criado (roteiros, vídeos, posts)
+conteudo/
+
+# Materiais de curso (privado)
+cursos/
+
+# Skills — distribuídas via curso, não pelo repositório público
+skills-publicas/
+
+# Skills internas com configurações pessoais
+.claude/skills/
+
+# Arquivos de dados pesados (binários)
+dados/*.csv
+dados/*.xlsx
+dados/*.xls
+dados/*.pdf
+dados/*.json
+
+# Credenciais OAuth Google
+clientes/credentials.json
+clientes/token.json
+clientes/autenticar_google.py
+
+# Sistema
+.DS_Store
+node_modules/
